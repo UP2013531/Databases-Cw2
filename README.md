@@ -48,11 +48,11 @@ trite, weak or no reflection.
 
 ## Marking Criteria Checklist
 
-* [X] The level of complexity of the query.
-* [X] The query being of good business use.
-* [X] Good differentiation from other queries.
-* [X] Good code formatting.
-* [X] Good design (relating back to the EERD & Data Dictionary).
-* [X] Use of any feedback received.
-* [X] Use of additional features such as constraints etc.
+* [ ] The level of complexity of the query.
+* [ ] The query being of good business use.
+* [ ] Good differentiation from other queries.
+* [ ] Good code formatting.
+* [ ] Good design (relating back to the EERD & Data Dictionary).
+* [ ] Use of any feedback received.
+* [ ] Use of additional features such as constraints etc.
   
