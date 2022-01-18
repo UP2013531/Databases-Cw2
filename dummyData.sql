@@ -1,0 +1,46 @@
+
+INSERT INTO doctorstaff (doctorid,fname,lname)
+
+VALUES
+  (393433,'Brittany','Macy'),
+  (423646,'Allistair','Calvin'),
+  (774934,'Gil','Azalia'),
+  (447375,'Buckminster','Martin'),
+  (600922,'Phoebe','Olivia'),
+  (794135,'Nerea','Driscoll'),
+  (266833,'Vera','Marah'),
+  (127067,'Nadine','Timon'),
+  (381785,'Cairo','Kylee'),
+  (499135,'Leslie','Hayfa'),
+  (243677,'Joshua','Ora'),
+  (120823,'Rooney','Jolie'),
+  (959498,'Nathan','Britanni'),
+  (614290,'Yasir','Shelley'),
+  (498967,'Peter','Summer'),
+  (388268,'Jeanette','Beau'),
+  (524253,'Raymond','Cally'),
+  (433756,'Octavia','Ali'),
+  (286133,'Amity','Benjamin'),
+  (914167,'Keefe','Daquan');
+
+  INSERT INTO patient (patientid) VALUES
+    (397473),
+    (276768),
+    (772634),
+    (581022),
+    (423912),
+    (961457),
+    (836732),
+    (728767),
+    (496589),
+    (575334),
+    (143287),
+    (251057),
+    (514386),
+    (196953),
+    (354953),
+    (207723),
+    (125687),
+    (297567),
+    (902365),
+    (477267);
