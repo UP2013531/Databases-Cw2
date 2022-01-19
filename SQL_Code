@@ -2,37 +2,37 @@ CREATE DATABASE hospital_db;
 
 CREATE TABLE WardRecord (
   WardRecordID CHAR(6) UNIQUE,
-  SpecialityID CHAR(6) ,
-  WardName VARCHAR(15) ,
+  SpecialityID CHAR(6),
+  WardName VARCHAR(15),
   PRIMARY KEY (WardRecordID)
 );
 
 CREATE TABLE Ward (
   WardName VARCHAR(15) UNIQUE,
-  HeadNurseID CHAR(6) ,
-  NurseID CHAR(6) ,
-  WardRecordID CHAR(6) ,
+  HeadNurseID CHAR(6),
+  NurseID CHAR(6),
+  WardRecordID CHAR(6),
   PRIMARY KEY (WardName)
 );
 
 CREATE TABLE Patient (
   PatientID CHAR(6) UNIQUE,
-  PatientRecordID CHAR(6) ,
-  DoctorID CHAR(6) ,
+  PatientRecordID CHAR(6),
+  DoctorID CHAR(6),
   PRIMARY KEY (PatientID)
 );
 
 CREATE TABLE MedicalHistory (
   MedicalRecordID VARCHAR(10) UNIQUE,
-  Complaint VARCHAR(40) ,
-  TreatmentDescription VARCHAR(40) ,
-  DateAdmitted DATE ,
+  Complaint VARCHAR(40),
+  TreatmentDescription VARCHAR(40),
+  DateAdmitted DATE,
   DateDischarged DATE,
-  DTS DATE ,
-  DTE DATE ,
-  PatientRecordID CHAR(6) ,
-  DoctorID CHAR(6) ,
-  TreatmentID CHAR(6) ,
+  DTS DATE,
+  DTE DATE,
+  PatientRecordID CHAR(6),
+  DoctorID CHAR(6),
+  TreatmentID CHAR(6),
   PRIMARY KEY (MedicalRecordID)
 );
 
@@ -40,10 +40,6 @@ CREATE TABLE PatientTreatment (
   TreatmentID CHAR(10) UNIQUE,
   PatientID CHAR(6) UNIQUE
 );
-
-
-
-
 
 CREATE TABLE NurseStaff (
   NurseID CHAR(6) UNIQUE,
